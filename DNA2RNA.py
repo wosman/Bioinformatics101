@@ -11,8 +11,6 @@ def transcribe(dna):
 print colored('Please enter your sequence of DNA below:', 'blue')
 print colored('e.g. (exempli gratia) ACAAGATGCCATTGTCCCCCGGCCTCCTGCTGCTGCTGCTCTCCGGGGCCACGGCCACCGCTGCCCTGCC', 'magenta')
 dna = raw_input()
-# dna = 'TGCCATTGTCCCCCGGCCTTTTTTTTTT'
-rna = ''
 rna = transcribe(dna)
 print colored('Your transcribed sequence is:', 'red') + colored(rna, 'green')
 print colored('Thank you', 'cyan', attrs=['reverse','blink'])
